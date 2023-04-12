@@ -150,6 +150,7 @@ public class MainActivity extends AppCompatActivity {
 
         //API çağrısı yapıldığında bu işlev çağrılacak
         @Override
+
         protected String doInBackground(Void... params) {
             HttpClient httpclient = HttpClients. createDefault ();
             StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
